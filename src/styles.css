@@ -1,0 +1,47 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 700px;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .add-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-edit {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+  }
+  
+  .section-edit-move-block {
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  
+  .section-edit-delete-block {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section-edit-form {
+    display: grid;
+    grid-gap: 15px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
